@@ -1,4 +1,22 @@
+/* Page 66 - id selector (01-id_Selector.html) */
 #para1 {
-    text-align: center;
-    color: red;
+  text-align: center;
+  color: red;
+}
+
+/* Page 67 - class selector (02-class_Selector.html) */
+.center {
+  text-align: center;
+}
+
+/* Page 77 - list-style-position (08_List-Style-Position.html) */
+ul {
+  width: 250px;
+  list-style-image: url('marker.png');
+}
+ul.c1 {
+  list-style-position: outside;
+}
+ul.c2 {
+  list-style-position: inside;
 }
